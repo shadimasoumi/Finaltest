@@ -12,6 +12,8 @@ version = '0.1.0'
 
 
 # -- General configuration
+sys.path.insert(0, os.path.abspath('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages'))
+import sphinx_rtd_theme
 
 
 
