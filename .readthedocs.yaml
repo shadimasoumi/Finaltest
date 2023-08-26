@@ -11,7 +11,7 @@ build:
   tools:
     python: "3.11"
     
-python
+Python
   install:
     - requirements: requirements.txt
 
