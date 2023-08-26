@@ -13,6 +13,12 @@ version = '0.1.0'
 
 # -- General configuration
 
+
+sys.path.insert(0, os.path.abspath('/Users/shadimasoumi/opt/anaconda3/lib/python3.8/site-packages/sphinx_rtd_theme'))
+import sphinx_rtd_theme
+
+
+
 matlab_src_dir = os.path.dirname(os.path.abspath(__file__))
 matlab_show_property_default_value = True
 matlab_short_links = True
@@ -25,6 +31,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme',
    
 ]
 
