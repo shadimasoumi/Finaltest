@@ -13,10 +13,6 @@ version = '0.1.0'
 
 # -- General configuration
 sys.path.insert(0, os.path.abspath('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages'))
-import sphinx_rtd_theme
-
-
-
 matlab_src_dir = os.path.dirname(os.path.abspath(__file__))
 matlab_show_property_default_value = True
 matlab_short_links = True
